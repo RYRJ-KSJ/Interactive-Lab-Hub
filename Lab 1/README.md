@@ -117,6 +117,7 @@ Special thanks to my roommate to help me with the videos.
 ## Prep 
 
 \*\***Summarize feedback from your partners here.**\*\*
+
 Shen Hongyu: I would love to have a mirror like this! However my concern is that beauty is subjective; what if the user likes the outfit and the mirror does not?
 
 Deng Kaiyuan: I love the idea that powering mirrors with the capability to communicate with users using different colors of light. As Yizhuo mentioned, having more colors can enable the mirror to show different kinds of comments. Different patterns of light can also be personalized by the users based on their dressing preferences.
@@ -145,10 +146,10 @@ The Magic Mirror is a mirror that can be used simply as a mirror without tapping
 
 
 ## Part B. Prototype the device
-![storyboard]()
+![storyboard](https://github.com/RYRJ-KSJ/Interactive-Lab-Hub/blob/Fall2021/Lab%201/storyboard%202.jpg)
 
 ## Part C. Costume the device
-![sketch]()
+![sketch](https://github.com/RYRJ-KSJ/Interactive-Lab-Hub/blob/Fall2021/Lab%201/sktech%202.jpg)
 
 ## Part D. Record 
 [interaction with paper prototype](https://drive.google.com/file/d/1XNMcxdUNTVAnzkVbH_E41BTe02b0lK6c/view?usp=sharing)
