@@ -1,6 +1,6 @@
 
 
-# Staging Interaction
+# Staging Interaction(Part 1)
 
 In the original stage production of Peter Pan, Tinker Bell was represented by a darting light created by a small handheld mirror off-stage, reflecting a little circle of light from a powerful lamp. Tinkerbell communicates her presence through this light to the other characters. See more info [here](https://en.wikipedia.org/wiki/Tinker_Bell). 
 
@@ -114,21 +114,43 @@ Special thanks to my roommate to help me with the videos.
 
 # Staging Interaction, Part 2 
 
-This describes the second week's work for this lab activity.
-
-
-## Prep (to be done before Lab on Wednesday)
-
-You will be assigned three partners from another group. Go to their github pages, view their videos, and provide them with reactions, suggestions & feedback: explain to them what you saw happening in their video. Guess the scene and the goals of the character. Ask them about anything that wasn’t clear. 
+## Prep 
 
 \*\***Summarize feedback from your partners here.**\*\*
+Shen Hongyu: I would love to have a mirror like this! However my concern is that beauty is subjective; what if the user likes the outfit and the mirror does not?
 
-## Make it your own
+Deng Kaiyuan: I love the idea that powering mirrors with the capability to communicate with users using different colors of light. As Yizhuo mentioned, having more colors can enable the mirror to show different kinds of comments. Different patterns of light can also be personalized by the users based on their dressing preferences.
 
-Do last week’s assignment again, but this time: 
-1) It doesn’t have to (just) use light, 
-2) You can use any modality (e.g., vibration, sound) to prototype the behaviors! Again, be creative!
-3) We will be grading with an emphasis on creativity. 
+Xiaotian Liu: The demo of the mirror is pretty cute! I would expect more colors to be applied. Also, I wonder how the mirror gives an assessment (will it take a pic or analyze the reflection of the image? Will there be privacy issues if the mirror takes the pic in my room? ) I may have commented a bit lot but trust me this is an amazing product that I love to see it goes real!
 
+## Lab Overview
+
+For this assignment, I am going to:
+
+A) [Plan](#part-a-plan) 
+
+B) [Prototype the device](#part-b-prototype-the-device)
+
+C) [Costume the device](#part-c-costume-the-device)
+
+D) [Record the interaction](#part-d-record)
 
 \*\***Document everything here. (Particularly, we would like to see the storyboard and video, although photos of the prototype are also great.)**\*\*
+
+## Part A. Plan
+
+Y loves trendy outfits but she always has a strong feeling of uncertainty on her daily look. So she bought a Magic Mirror several days ago.This Magic Mirror can tell her whether the look is perfect or not through change of colors. Y just needs to tap the Mirror slightly to wake it up. If the Mirror really loves the look it will turn green, if not, it will turn yellow. And there are another 2 colors representing different opinions: blue for fit in style only, orange for fit in size only. Y can get comments from the Mirror easily. 
+
+The Magic Mirror is a mirror that can be used simply as a mirror without tapping it. But if you knock it, it will shine lights of different colors to tell you its opinions. Also, you can set colors to stand for different opinions by yourself.
+
+
+## Part B. Prototype the device
+![storyboard]()
+
+## Part C. Costume the device
+![sketch]()
+
+## Part D. Record 
+[interaction with paper prototype](https://drive.google.com/file/d/1XNMcxdUNTVAnzkVbH_E41BTe02b0lK6c/view?usp=sharing)
+
+[interaction](https://drive.google.com/file/d/1z5St8Rv-r45OIj9vqiLMMjZzNM2Y4kDD/view?usp=sharing)
