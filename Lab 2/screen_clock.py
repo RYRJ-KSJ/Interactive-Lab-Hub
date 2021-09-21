@@ -55,8 +55,8 @@ x = 0
 # Alternatively load a TTF font.  Make sure the .ttf font file is in the
 # same directory as the python script!
 # Some other nice fonts to try: http://www.dafont.com/bitmap.php
-font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 18)
-font_small = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 15)
+font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 30)
+font_small = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 25)
 
 #image reformation
 def image_reform(image1, width, height):
@@ -79,25 +79,27 @@ while True:
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
 
     #TODO: Lab 2 part D work should be filled in here. You should be able to look in cli_clock.py and stats.py 
-    x, y = 6, 8
+    x, y = 6, 12
     if buttonA.value and buttonB.value:  # without any button pressed
         image1 = Image.open("dali.jpg")
         image1 = image_reform(image1, width, height)
 
         draw = ImageDraw.Draw(image1)
 
-        draw.text((x, y), "Dali Clock", font=font, fill="#000000")
+        draw.text((90, 15), "Dali Clock", font=font, fill="#000000")
 
 
-    if buttonB.value and not buttonA.value:  # press button A
-        draw.text((x, y), "Time Stopped", font=font, fill="#000000")
+    elif buttonB.value and not buttonA.value:  # press button A
+        draw.rectangle((0, 0, width, height), outline=0, fill=0)
+        draw.text((x, y), "Time Stopped", font=font, fill="#FFFFFF")
 
 
-    if buttonA.value and not buttonB.value:  # press button B
+    elif buttonA.value and not buttonB.value:  # press button B
 
-        draw.text((4, 0), "Time Flies", font=font1, fill="#FFFF00")
-        draw.text((x, y), strftime("%H:%M:%S%p"), font=font, fill="#000000")
+        draw.rectangle((0, 0, width, height), outline=0, fill=0)
+        draw.text((0, 20), "Time Flies", font=font_small, fill="#FFFFFF")
+        draw.text((30, 60), strftime("%H:%M:%S%p"), font=font, fill="#FFFFFF")
 
     # Display image.
-    disp.image(image, rotation)
-    time.sleep(1)
+    disp.image(image1, rotation)
+    time.sleep(2)
