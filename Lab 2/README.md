@@ -186,15 +186,16 @@ After you edit and work on the scripts for Lab 2, the files should be upload bac
 
 After that, Git will ask you to login to your GitHub account to push the updates online, you will be asked to provide your GitHub user name and password. Remember to use the "Personal Access Tokens" you set up in Part A as the password instead of your account one! Go on your GitHub repo with your laptop, you should be able to see the updated files from your Pi!
 
-
 ## Part F. 
 ## Make a short video of your modified barebones PiClock
 
 \*\*\***Take a video of your PiClock.**\*\*\*
+[Dali Clock](https://drive.google.com/file/d/1aLJC4ZZAAYA58rTe3sbWLJzcPGo_f3uY/view?usp=sharing)
+Push one button to stop the time and another button to let time pass through.
 
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
-
+I would like the time of my clock to adjust speed based on weather, like if it is a sunny day and I don't want enjoy more sunshine, I can stop the time or let the time slow down.
 
 # Prep for Part 2
 
