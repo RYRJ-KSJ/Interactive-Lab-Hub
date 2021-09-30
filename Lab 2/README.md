@@ -216,35 +216,41 @@ After you edit and work on the scripts for Lab 2, the files should be upload bac
 
 After that, Git will ask you to login to your GitHub account to push the updates online, you will be asked to provide your GitHub user name and password. Remember to use the "Personal Access Tokens" you set up in Part A as the password instead of your account one! Go on your GitHub repo with your laptop, you should be able to see the updated files from your Pi!
 
-
 ## Part F. 
 ## Make a short video of your modified barebones PiClock
 
 \*\*\***Take a video of your PiClock.**\*\*\*
 
+[Dali Clock](https://drive.google.com/file/d/1aLJC4ZZAAYA58rTe3sbWLJzcPGo_f3uY/view?usp=sharing)
+
+Push one button to stop the time and another button to let time pass through.
+
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
 
+I would like the time of my clock to adjust time speed， like press the button to slow down the time or make it fast, as it already has the function of stop the time and let the time continue to go.
 
-# Prep for Part 2
+# Feedback
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 1. Pick up remaining parts for kit.
 =======
 1. Pick up remaining parts for kit on Thursday lab class. Check the updated [parts list inventory](partslist.md) and let the TA know if there is any part missing.
   
 >>>>>>> b4f31bcf6c9d48655b13298e331b4c0ee4919ec7
+=======
+Yixuan li: Hi Zhou, your idea of manual controlling the time amazed me. And for part G, I think you can change the scale of time. For the slow-down example, you can make 24 hrs in reality act like just 1 hr in the clock. It’s just like Interstellar!
+>>>>>>> a3063c115289aee82055d2d89af55c6ae509f5d8
 
-2. Look at and give feedback on the Part G. for at least 2 other people in the class (and get 2 people to comment on your Part G!)
+Kexin: It's great, and I would love to see the function of adjusting time speed.
 
 # Lab 2 Part 2
 
-Pull Interactive Lab Hub updates to your repo.
 
 Modify the code from last week's lab to make a new visual interface for your new clock. You may [extend the Pi](Extending%20the%20Pi.md) by adding sensors or buttons, but this is not required.
 
-As always, make sure you document contributions and ideas from others explicitly in your writeup.
 
-You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page. 
+[Dali Clock](https://drive.google.com/file/d/1aLJC4ZZAAYA58rTe3sbWLJzcPGo_f3uY/view?usp=sharing)
 
 
