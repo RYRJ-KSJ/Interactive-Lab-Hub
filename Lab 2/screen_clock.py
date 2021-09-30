@@ -4,8 +4,11 @@ import digitalio
 import board
 from PIL import Image, ImageDraw, ImageFont
 import adafruit_rgb_display.st7789 as st7789
+<<<<<<< HEAD
 from datetime import datetime
 from time import strftime, sleep
+=======
+>>>>>>> b4f31bcf6c9d48655b13298e331b4c0ee4919ec7
 
 # Configuration for CS and DC pins (these are FeatherWing defaults on M0/M4):
 cs_pin = digitalio.DigitalInOut(board.CE0)
@@ -55,6 +58,7 @@ x = 0
 # Alternatively load a TTF font.  Make sure the .ttf font file is in the
 # same directory as the python script!
 # Some other nice fonts to try: http://www.dafont.com/bitmap.php
+<<<<<<< HEAD
 font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 30)
 font_small = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 25)
 
@@ -64,21 +68,29 @@ def image_reform(image1, width, height):
     image1 = image1.resize((240, 135), Image.BICUBIC)
 
     return image1
+=======
+font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 18)
+
+>>>>>>> b4f31bcf6c9d48655b13298e331b4c0ee4919ec7
 # Turn on the backlight
 backlight = digitalio.DigitalInOut(board.D22)
 backlight.switch_to_output()
 backlight.value = True
 
+<<<<<<< HEAD
 buttonA = digitalio.DigitalInOut(board.D23)
 buttonB = digitalio.DigitalInOut(board.D24)
 buttonA.switch_to_input()
 buttonB.switch_to_input()
 
+=======
+>>>>>>> b4f31bcf6c9d48655b13298e331b4c0ee4919ec7
 while True:
     # Draw a black filled box to clear the image.
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
 
     #TODO: Lab 2 part D work should be filled in here. You should be able to look in cli_clock.py and stats.py 
+<<<<<<< HEAD
     x, y = 6, 12
     if buttonA.value and buttonB.value:  # without any button pressed
         image1 = Image.open("dali.jpg")
@@ -103,3 +115,9 @@ while True:
     # Display image.
     disp.image(image1, rotation)
     time.sleep(2)
+=======
+
+    # Display image.
+    disp.image(image, rotation)
+    time.sleep(1)
+>>>>>>> b4f31bcf6c9d48655b13298e331b4c0ee4919ec7
