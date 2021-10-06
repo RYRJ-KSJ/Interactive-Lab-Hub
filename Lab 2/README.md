@@ -16,15 +16,13 @@ Be generous in acknowledging their contributions! And also recognizing any other
 ### Get your kit
 If you are remote but in the US, let the teaching team know you need the parts mailed.
 
-<<<<<<< HEAD
-If you are in New York, you can come to the campus and pick up your parts. If you have not picked up your parts by Thursday lab you should come to Tata 351.
-
-=======
-
 If you are in New York, you can come to the campus and pick up your parts. If you have not picked up your parts by Thursday lab you should come to Tata 351.
 
 
->>>>>>> b4f31bcf6c9d48655b13298e331b4c0ee4919ec7
+If you are in New York, you can come to the campus and pick up your parts. If you have not picked up your parts by Thursday lab you should come to Tata 351.
+
+
+
 ### Set up your Lab 2
 
 1. [Pull changes from the Interactive Lab Hub](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2021Fall/readings/Submitting%20Labs.md#to-pull-lab-updates) so that you have your own copy of Lab 2 on your own lab hub. (This may have to be done again at the start of lab on Thursday.)
@@ -33,11 +31,9 @@ If you are in New York, you can come to the campus and pick up your parts. If yo
 
   ```
   Interactive-Lab-Hub $ git remote add upstream https://github.com/FAR-Lab/Interactive-Lab-Hub.git
-<<<<<<< HEAD
   Interactive-Lab-Hub $ git pull upstream Spring2021
   Interactive-Lab-Hub $ git add .
   Interactive-Lab-Hub $ git commit -m'merge'
-=======
   Interactive-Lab-Hub $ git pull upstream Fall2021
   ```
   
@@ -46,7 +42,6 @@ If you are in New York, you can come to the campus and pick up your parts. If yo
   ```
   Interactive-Lab-Hub $ git add .
   Interactive-Lab-Hub $ git commit -m "message"
->>>>>>> b4f31bcf6c9d48655b13298e331b4c0ee4919ec7
   Interactive-Lab-Hub $ git push
   ```
   Your local and remote should now be up to date with the most recent files.
@@ -72,7 +67,9 @@ F) [Make a short video of your modified barebones PiClock](#part-f)
 G) [Sketch and brainstorm further interactions and features you would like for your clock for Part 2.](#part-g)
 
 ## The Report
-This readme.md page in your own repository should be edited to include the work you have done. You can delete everything but the headers and the sections between the \*\*\***stars**\*\*\*. Write the answers to the questions under the starred sentences. Include any material that explains what you did in this lab hub folder, and link it in the readme.
+This readme.md page in your own repository should be edited to include the work you have done. You can delete everything but the headers and the sections between the \*\*\***stars**\*\*\*. 
+
+Write the answers to the questions under the starred sentences. Include any material that explains what you did in this lab hub folder, and link it in the readme.
 
 Labs are due on Mondays. Make sure this page is linked to on your main class hub page.
 
@@ -93,12 +90,11 @@ The support for password authentication of GitHub was removed on August 13, 2021
 
 Following the steps listed [here](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token) from GitHub to set up a token. Depends on your preference, you can set up and select the scopes, or permissions, you would like to grant the token. This token will act as your GitHub password later when you use the terminal on your Pi to sync files with your lab-hub repo.
 
-<<<<<<< HEAD
-=======
 
->>>>>>> b4f31bcf6c9d48655b13298e331b4c0ee4919ec7
 ## Part B. 
+
 ### Try out the Command Line Clock
+
 Clone your own lab-hub repo for this assignment to your Pi and change the directory to Lab 2 folder (remember to replace the following command line with your own GitHub ID):
 
 ```
@@ -122,6 +118,7 @@ If you are unfamiliar with the Python code in `cli_clock.py`, have a look at [th
 
 ## Part C. 
 ### Set up your RGB Display
+
 We have asked you to equip the [Adafruit MiniPiTFT](https://www.adafruit.com/product/4393) on your Pi in the Lab 2 prep already. Here, we will introduce you to the MiniPiTFT and Python scripts on the Pi with more details.
 
 <img src="https://cdn-learn.adafruit.com/assets/assets/000/082/842/large1024/adafruit_products_4393_iso_ORIG_2019_10.jpg" height="200" />
@@ -168,9 +165,11 @@ You can look in `image.py` for an example of how to display an image on the scre
 
 ## Part D. 
 ### Set up the Display Clock Demo
+
 Work on `screen_clock.py`, try to show the time by filling in the while loop (at the bottom of the script where we noted "TODO" for you). You can use the code in `cli_clock.py` and `stats.py` to figure this out.
 
 ### How to Edit Scripts on Pi
+
 Option 1. One of the ways for you to edit scripts on Pi through terminal is using [`nano`](https://linuxize.com/post/how-to-use-nano-text-editor/) command. You can go into the `screen_clock.py` by typing the follow command line:
 ```
 (circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 2 $ nano screen_clock.py
@@ -187,10 +186,6 @@ Option 2. Another way for you to edit scripts is to use VNC on your laptop to re
 Now you should be able to edit python scripts with Thonny on your Pi.
 
 
-<<<<<<< HEAD
-=======
-
->>>>>>> b4f31bcf6c9d48655b13298e331b4c0ee4919ec7
 ## Part E.
 ### Modify the barebones clock to make it your own
 
@@ -200,10 +195,6 @@ Can you make time interactive? You can look in `screen_test.py` for examples for
 
 **We strongly discourage and will reject the results of literal digital or analog clock display.**
 
-<<<<<<< HEAD
-=======
-
->>>>>>> b4f31bcf6c9d48655b13298e331b4c0ee4919ec7
 \*\*\***A copy of your code should be in your Lab 2 Github repo.**\*\*\*
 
 After you edit and work on the scripts for Lab 2, the files should be upload back to your own GitHub repo! You can push to your personal github repo by adding the files here, commiting and pushing.
@@ -232,16 +223,12 @@ I would like the time of my clock to adjust time speed， like press the button 
 
 # Feedback
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 1. Pick up remaining parts for kit.
-=======
+
 1. Pick up remaining parts for kit on Thursday lab class. Check the updated [parts list inventory](partslist.md) and let the TA know if there is any part missing.
   
->>>>>>> b4f31bcf6c9d48655b13298e331b4c0ee4919ec7
-=======
+
 Yixuan li: Hi Zhou, your idea of manual controlling the time amazed me. And for part G, I think you can change the scale of time. For the slow-down example, you can make 24 hrs in reality act like just 1 hr in the clock. It’s just like Interstellar!
->>>>>>> a3063c115289aee82055d2d89af55c6ae509f5d8
 
 Kexin: It's great, and I would love to see the function of adjusting time speed.
 
