@@ -64,7 +64,6 @@ def image_reform(image1, width, height):
     image1 = image1.resize((240, 135), Image.BICUBIC)
 
     return image1
-
 font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 18)
 
 
@@ -80,6 +79,7 @@ buttonA.switch_to_input()
 buttonB.switch_to_input()
 
 
+
 while True:
     # Draw a black filled box to clear the image.
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
@@ -88,28 +88,12 @@ while True:
 
     x, y = 6, 12
     if buttonA.value and buttonB.value:  # without any button pressed
-        image1 = Image.open("dali.jpg")
-        image1 = image_reform(image1, width, height)
-
-        draw = ImageDraw.Draw(image1)
-
-        draw.text((90, 15), "Dali Clock", font=font, fill="#000000")
-
-
-    elif buttonB.value and not buttonA.value:  # press button A
-        draw.rectangle((0, 0, width, height), outline=0, fill=0)
-        draw.text((x, y), "Time Stopped", font=font, fill="#FFFFFF")
-
-
-    elif buttonA.value and not buttonB.value:  # press button B
 
         draw.rectangle((0, 0, width, height), outline=0, fill=0)
-        draw.text((0, 20), "Time Flies", font=font_small, fill="#FFFFFF")
-        draw.text((30, 60), strftime("%H:%M:%S%p"), font=font, fill="#FFFFFF")
+        draw.text((x, y), "It's 10pm!!!!", font=font, fill="#FFFFFF")
+        draw.text((6, 40), "Do you wanna sleep now?", font=font, fill="#FFFFFF")
 
-    # Display image.
-    disp.image(image1, rotation)
-    time.sleep(2)
+
 
 
     # Display image.
