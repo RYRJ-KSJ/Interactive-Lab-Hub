@@ -158,39 +158,76 @@ For Part 2, you will redesign the interaction with the speech-enabled device usi
 
 ## Prep for Part 2
 
-1. What are concrete things that could use improvement in the design of your device? For example: wording, timing, anticipation of misunderstandings...
-2. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
-3. Make a new storyboard, diagram and/or script based on these reflections.
+storyboard
+
+Sleeping reminder:
+
+![storyboard3](https://github.com/RYRJ-KSJ/Interactive-Lab-Hub/blob/Fall2021/Lab%203/storyboard3.jpg)
+![storyboard4](https://github.com/RYRJ-KSJ/Interactive-Lab-Hub/blob/Fall2021/Lab%203/stroyboard4.jpg)
+
+script:
+
+
+Are you gonna sleep now?
+
+No.
+
+It's 10:00pm now, you still don't want to sleep?
+
+Yes.
+
+It's 11:00pm, do you wanna sleep now?
+
+Yes.
+
+Do you want me help you turn off all the lights?
+
+Sure.
+
+Good Night
+
 
 ## Prototype your system
 
-The system should:
-* use the Raspberry Pi 
-* use one or more sensors
-* require participants to speak to it. 
-
 *Document how the system works*
+
+Show the time and questions on the display screen along with the sound.
+
+After receiving answers it will switch to another sentence to show on the screen.
+
 
 *Include videos or screencaptures of both the system and the controller.*
 
-## Test the system
-Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
+System:
 
-Answer the following:
+![system](https://github.com/RYRJ-KSJ/Interactive-Lab-Hub/blob/Fall2021/Lab%203/system.jpeg)
+
+
+## Test the system
 
 ### What worked well about the system and what didn't?
 \*\**your answer here*\*\*
+
+It can echo the questions but sometime may miss the answers.
 
 ### What worked well about the controller and what didn't?
 
 \*\**your answer here*\*\*
 
+It has to display texts and make voices separetly, there is a huge time lag
+
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
 
 \*\**your answer here*\*\*
+
+Questions can be set more like a conversation rather than sounds like a interview, and webcam can capture movements for assisted analysis in people's answers.
 
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
 
 \*\**your answer here*\*\*
+
+To get the record of how many questions would be ask before people actually get to sleep then compute an avergae counts to improve the questions and interactions 
+
+with other room appliances.
 
