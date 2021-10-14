@@ -162,7 +162,7 @@ storyboard
 
 Sleeping reminder:
 
-![storyboard3](https://github.com/RYRJ-KSJ/Interactive-Lab-Hub/blob/Fall2021/Lab%203/storyboard3.jpg)
+![storyboard3](https://github.com/RYRJ-KSJ/Interactive-Lab-Hub/blob/Fall2021/Lab%203/storyboard5.jpg)
 ![storyboard4](https://github.com/RYRJ-KSJ/Interactive-Lab-Hub/blob/Fall2021/Lab%203/stroyboard4.jpg)
 
 script:
