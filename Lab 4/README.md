@@ -175,10 +175,37 @@ Usually, sensors need to positioned in specific locations or orientations to mak
 
 **\*\*\*Draw 5 sketches of different ways you might use your sensor, and how the larger device needs to be shaped in order to make the sensor useful.\*\*\***
 
+I chose capacitive sensor
+
+1. Acupuncture Practice Doll
+
+![sketch1](https://github.com/RYRJ-KSJ/Interactive-Lab-Hub/blob/Fall2021/Lab%204/sketch1.jpg)
+
+2. Clap Game
+
+![sketch2](https://github.com/RYRJ-KSJ/Interactive-Lab-Hub/blob/Fall2021/Lab%204/sketch2.jpg)
+
+3. Guitar
+
+![sketch3](https://github.com/RYRJ-KSJ/Interactive-Lab-Hub/blob/Fall2021/Lab%204/sketch3.jpg)
+
+4. Stop eating ice cream!
+
+![sketch4](https://github.com/RYRJ-KSJ/Interactive-Lab-Hub/blob/Fall2021/Lab%204/sketch4.jpg)
+
+5. White noise player
+
+![sketch5](https://github.com/RYRJ-KSJ/Interactive-Lab-Hub/blob/Fall2021/Lab%204/sketch5.jpg)
+
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
+
+1. Will the size of the physical prototype affect the actual usage?
+
+2. How can connecters be hided from people to make the product look better?
 
 **\*\*\*Pick one of these designs to prototype.\*\*\***
 
+I'm gonna prototype the acupuncture practice doll
 
 ### Part D
 ### Physical considerations for displaying information and housing parts
@@ -220,16 +247,33 @@ Think about how you want to present the information about what your sensor is se
  
 **\*\*\*Sketch 5 designs for how you would physically position your display and any buttons or knobs needed to interact with it.\*\*\***
 
+
+
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
+
+1. Will the size of the physical prototype affect the actual usage?
+
+2. How can connecters be hided from people to make the product look better?
 
 **\*\*\*Pick one of these display designs to integrate into your prototype.\*\*\***
 
+
+
 **\*\*\*Explain the rationale for the design.\*\*\*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
+
+If we want to put the acupuncture into practical use we have to make it has the same size of average normal men/women.If the size is too small or too big, people cannot get to familiar with the positions of those acupoints.
+
+But in this design, I'm gonna just try out the mini version acupuncture doll to test if the thoughts work.
+
 
 Build a cardbord prototype of your design.
 
 **\*\*\*Document your rough prototype.\*\*\***
 
+I will cut off the doll from the cardboard in final design, but for the rough prototype I just draw the doll and the acupoints to show how it can be connected to 
+the sensor.
+
+![roughprototype](https://github.com/RYRJ-KSJ/Interactive-Lab-Hub/blob/Fall2021/Lab%204/rough_new.jpg)
 
 LAB PART 2
 
