@@ -1,6 +1,8 @@
 # Ph-UI!!!
 
-For lab this week, we focus on both on sensing, to bring in new modes of input into your devices, as well as prototyping the physical look and feel of the device. You will think about the physical form the device needs to perform the sensing as well as present the display or feedback about what was sensed. 
+Group member: Ruoyu Zhou(rz224), Jingchun Huang(jh2688)
+
+For lab this week, we focus on both on sensing, to bring in new modes of input into your devices, as well as prototyping the physical look and feel of the device. You will think about the physical form the device needs to perform the sensing as well as present the display or feedback about what was sensed.
 
 ## Part 1 Lab Preparation
 
@@ -203,6 +205,10 @@ I chose capacitive sensor
 
 2. How can connecters be hided from people to make the product look better?
 
+3. Can the sensors and prototype be placed in extreme environment? Like for design 4, it it is place in a fridge, how can we make it work normally
+
+I will try to place the sensor in different places with different ways of connections to other parts. Also using additional battery to move the pi from desk may be a trial.
+
 **\*\*\*Pick one of these designs to prototype.\*\*\***
 
 I'm gonna prototype the acupuncture practice doll
@@ -247,7 +253,25 @@ Think about how you want to present the information about what your sensor is se
  
 **\*\*\*Sketch 5 designs for how you would physically position your display and any buttons or knobs needed to interact with it.\*\*\***
 
+1. Sensor in the middle of the acupuncture doll
 
+![p1](https://github.com/RYRJ-KSJ/Interactive-Lab-Hub/blob/Fall2021/Lab%204/p1.jpg)
+
+2. Sensor in a seperate box
+
+![p2](https://github.com/RYRJ-KSJ/Interactive-Lab-Hub/blob/Fall2021/Lab%204/p2.jpg)
+
+3. Sensor at the brain of the doll
+
+![p3](https://github.com/RYRJ-KSJ/Interactive-Lab-Hub/blob/Fall2021/Lab%204/p3.jpg)
+
+4. Sensor inside a 3D doll
+
+![p4](https://github.com/RYRJ-KSJ/Interactive-Lab-Hub/blob/Fall2021/Lab%204/p4.jpg)
+
+5. Sensor next to the doll
+
+![p5](https://github.com/RYRJ-KSJ/Interactive-Lab-Hub/blob/Fall2021/Lab%204/p5.jpg)
 
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
 
@@ -255,15 +279,19 @@ Think about how you want to present the information about what your sensor is se
 
 2. How can connecters be hided from people to make the product look better?
 
+In design 2 and 5, there is a problem that the wire can be entangled very easily. And it may affect the connection between the doll and the sensor. The circuits need to be prototype for the testing of whether it is an appropriate way for connection.
+
+
 **\*\*\*Pick one of these display designs to integrate into your prototype.\*\*\***
 
+Pick design 1
 
 
 **\*\*\*Explain the rationale for the design.\*\*\*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
 
-If we want to put the acupuncture into practical use we have to make it has the same size of average normal men/women.If the size is too small or too big, people cannot get to familiar with the positions of those acupoints.
+If we want to put the acupuncture into practical use we have to make it has the same size of average normal men/women. If the size is too small or too big, people cannot get to familiar with the positions of those acupoints.
 
-But in this design, I'm gonna just try out the mini version acupuncture doll to test if the thoughts work.
+But in this design, I'm gonna just try out the mini version acupuncture doll to test if the thoughts work. If the mini version works, the larger size version can work functionally as well.
 
 
 Build a cardbord prototype of your design.
@@ -279,7 +307,32 @@ LAB PART 2
 
 ### Part 2
 
+feedback:
+
+Donal Michael Thomas Lowsley-Williams: 
+
+I like your idea! If I am not mistaken, it is used to accurately detect whether or not you placed the acupuncture needle In the correct location? I imagine that it will beep or notify you in some way upon correct entry of the needle into the red acupoints on the diagram. I think this would indeed help, but it might help to reverse the notification - that is, maybe it could beep or notify you when you put the needle not in one of the correct acupoints. This could be done with a lot less cables, too! You could just cut out the doll in tinfoil and then make small holes for the acupoints, and connect the tinfoil with holes to the capacitive sensor board. This would only have to be connected by one cable! Also, if you haven’t thought of it yet, I think making a sound would be the best warning that you placed the needle incorrectly.
+
 Following exploration and reflection from Part 1, complete the "looks like," "works like" and "acts like" prototypes for your design, reiterated below.
+
+1. Prototype
+
+
+
+![finaldesign](https://github.com/RYRJ-KSJ/Interactive-Lab-Hub/blob/Fall2021/Lab%204/final_prototype.jpg)
+
+2. Look like
+
+Put the sensor on the back of the doll and use the copper tape as connecters to the sensor. The sensor is connected to real acupoints with red circles and also wrong points with no marks.
+
+![front](https://github.com/RYRJ-KSJ/Interactive-Lab-Hub/blob/Fall2021/Lab%204/front.jpg)
+
+![back](https://github.com/RYRJ-KSJ/Interactive-Lab-Hub/blob/Fall2021/Lab%204/back.jpg)
+
+3. Work like
+
+There are several red points on the doll representing the acupoints, once we use the needles to stick to the doll, the doll will make sound to tell people if they are in the right positions for acupoints, if yes, the doll will make sounds like "you are wonderful" "great, that's the point", if not the point, the doll will tell people: please try another point.
+
 
 ### Part E (Optional)
 ### Servo Control with Joystick
@@ -318,3 +371,6 @@ Document all the prototypes and iterations you have designed and worked on! Agai
 * "Works like": shows what the device can do
 * "Acts like": shows how a person would interact with the device
 
+Acts like:
+
+[acupuncture doll](https://drive.google.com/file/d/1oYbAe0khyJP_Mv050_IFuvonnP8Smomy/view?usp=sharing)
