@@ -11,9 +11,9 @@ Please place links here to the README.md's for each of your labs here:
 
 [Lab 4. Ph-UI!!!](Lab%204/)
 
-[Lab 5. Observant Systems](Lab%205/)
+[Lab 5. Observant Systems](https://github.com/ryleeliyixuan/Interactive-Lab-Hub/tree/Fall2021/Lab%205/)
 
-[Lab 6. Little Interactions Everywhere](Lab%206/)
+[Lab 6. Little Interactions Everywhere](https://github.com/ryleeliyixuan/Interactive-Lab-Hub/tree/Fall2021/Lab%206/)
 
-[Final Project](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2021Fall/FinalProject.md)<!--[](Final%20Project/)-->
+[Final Project: Dungeon Game](https://github.com/ryleeliyixuan/dungeon-game/)
 
